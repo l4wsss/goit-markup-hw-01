@@ -33,8 +33,6 @@ nav {
 nav .logo {
   padding: 0;
   margin-right: 76px;
-}
-nav .logo p {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
@@ -126,7 +124,12 @@ nav .nav-item a {
 /* About us */
 
 #about-us {
-  margin: 120px 0 120px 0;
+  margin: 90px 0 120px 0;
+}
+
+#about-us h2 {
+  opacity: 0;
+  margin: 0;
 }
 
 .about-us-container {
